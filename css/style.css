@@ -1,4 +1,4 @@
-/* *{
+*{
     box-sizing: border-box;
 }
 .column{
@@ -13,26 +13,17 @@
     display: table;
     clear: both;
 }
-section{
-    height: 400px;
-    width: 100%;
-    background-color: indianred;
-}
 p{
     line-height: 1.6;
-} */
+}
 *{
     margin: 0;
     padding: 0%;
     box-sizing: border-box;
 }
 .border{
-    border: 1px solid #000;
+    border: 1px solid rgb(255, 255, 255);
 }
-/* header{
-    width: 100vw;
-    height: 150px;
-} */
 nav{
     width: 100vw;
     height: 80px;
@@ -71,7 +62,7 @@ nav div img:hover{
 }
 main{
     width: 100%;
-    height: 600px;
+    height: 1200px;
     background-color: dimgrey;
     background-image: radial-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)),
     url(/Image/400w-I-LWAtAIYH4.webp);
@@ -111,18 +102,28 @@ aside{
     width: 35%;
     height: 1200px;
     float: right;
-    background-color: rgb(253, 205, 48);
+    background-color: #000
     
 }
 section, article{
     width: 65%;
     height: 600px;
     float: left;
-    background-color: rgb(253, 205, 48);
+   background-color: #000;
+   text-align: center;
+}
+.secText{
+    font-size: 22px;
+    line-height: 40px;
+    color: ghostwhite;
+}
+section{
+    
 }
 footer{
     width: 100vw;
-    height: 150px;
+    height: 120px;
     clear: both;
     background-color: rgb(230, 156, 44);
+    text-align: center;
 }
