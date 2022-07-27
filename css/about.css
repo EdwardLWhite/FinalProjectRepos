@@ -42,3 +42,10 @@ nav div img:hover{
     height: 48px;
     width: 48px;
 }
+footer{
+    width: 100vw;
+    height: 120px;
+    clear: both;
+    background-color: rgb(230, 156, 44);
+    text-align: center;
+}

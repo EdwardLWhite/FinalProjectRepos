@@ -3,9 +3,13 @@
     padding: 0%;
     box-sizing: border-box;
 }
-.border{
-    border: 1px solid #000;
+.background{
+    height: 100vw;
+    width: 100vw;
 }
+/* .border{
+    border: 1px solid #000;
+} */
 nav{
     width: 100vw;
     height: 80px;
@@ -41,4 +45,15 @@ nav ul a li{
 nav div img:hover{
     height: 48px;
     width: 48px;
+}
+.form{
+    text-align: center;
+    padding: 30px;
+}
+footer{
+    width: 100vw;
+    height: 120px;
+    clear: both;
+    background-color: rgb(230, 156, 44);
+    text-align: center;
 }

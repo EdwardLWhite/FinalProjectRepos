@@ -21,9 +21,9 @@ p{
     padding: 0%;
     box-sizing: border-box;
 }
-.border{
+/* .border{
     border: 1px solid rgb(255, 255, 255);
-}
+} */
 nav{
     width: 100vw;
     height: 80px;
