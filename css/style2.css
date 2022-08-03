@@ -1,0 +1,146 @@
+/* video background */
+.column{
+    width: 30%;
+    height: 200px;
+    border: 3px solid #000;
+    float: left;
+    font-family: 'Playfair Display', serif;
+}
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+p{
+    line-height: 1.6;
+}
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.border{
+    border: 1px solid rgb(0, 0, 0);
+}
+nav{
+    width: 100%;
+    height: 80px;
+    background: #F7971E;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFD200, #F7971E);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFD200, #F7971E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.logo{
+    float: left;
+    margin: 15px 15px;
+}
+nav ul{
+    text-align: center;
+    float: right;
+    list-style-type: none;
+}
+nav ul a{
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 30px;
+    color: ghostwhite;
+}
+nav ul a:hover{
+    background-color: ghostwhite;
+    color: #000;
+}
+nav ul a li{
+    display: inline-block;
+    margin: 25px 25px;
+}
+nav div img:hover{
+    height: 48px;
+    width: 48px;
+}
+/* .topbutton{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 25px;
+}
+.topbutton a{
+    padding: 10px 15px;
+    background-color: #F7971E;
+    border: 2px solid #000;
+    border-radius: 50%;
+
+} */
+#background-video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+  
+  /* page content */
+  h1, h2 {
+    color: white;
+    font-family: Trebuchet MS;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 6rem;
+    margin-top: 30vh; 
+  }
+  
+  h2 { font-size: 3rem; }
+  
+  @media (max-width: 750px) {
+      #background-video { display: none; }
+main{
+        background: url("https://assets.codepen.io/6093409/river.jpg") no-repeat;
+        background-size: cover;
+      }
+}
+section{
+    /* background-color: #000; */
+}
+section p{
+    color: ghostwhite;
+}
+.row{
+    margin: 1200px 20px;
+    /* background-color: #000; */
+}
+.column{
+    width: 33.33%;
+    height: 300px;
+    float: left;
+    text-align: center;
+    /* padding: 10px 10px; */
+    /* border: 3px solid ghostwhite; */
+}
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.col1{
+    background-image: url(/image/Img\ 1.jpg);
+}
+  footer{
+    margin-top: 50vh;
+    padding: 10px;
+    position: relative;
+    background: #F7971E;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #FFD200, #F7971E);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #FFD200, #F7971E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    text-align: center;
+}
