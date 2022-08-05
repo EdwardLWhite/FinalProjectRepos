@@ -49,7 +49,7 @@ nav div img:hover{
 section{
     height: 100vh;
     width: 100%;
-    background-image: url(/css/Img\ 3.jpg);
+    background-image: url('../css/Img3.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
